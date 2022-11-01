@@ -36,7 +36,7 @@ async function main(email: string) {
     console.dir(usersWithPosts, { depth: null })
 }
 
-main("spongebob2@gmail.com")
+main("spongebob3@gmail.com")
   .then(async () => {
     await prisma.$disconnect()
   })

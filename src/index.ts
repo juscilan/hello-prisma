@@ -23,6 +23,7 @@ async function main(email: string) {
         },
       })
 
+
     // console.log(user)
 
     // const users = await prisma.user.findMany()
